@@ -17,34 +17,75 @@
             <nav class="navigation">
                 <a href="firstLinktree.html">主页</a>
                 <a href="https://betterttv.com/emotes/5fa8f232eca18f6455c2b2e1" target="none">关于</a>
-                <a href="https://www.youtube.com/watch?v=a6Tvy1tubRs" target="none">Video</a>
+                <a href="https://www.youtube.com/watch?v=a6Tvy1tubRs" target="none">视频</a>
                 <a href="" target="none">萨德</a>
                 <button class="btnLogin">登录</button>
-            </nav>
-            
+            </nav>     
         </header>
 
         <div class="wrapper">
-            <form action="">
-                <h1>好难过</h1>
-                <div class="input-box">
-                    <input type="text" placeholder="用户名" required>
-                    <i class="bx bxs-user"></i>
-                </div>
-                <div class="input-box">
-                    <input type="password" placeholder="密码" required>
-                    <i class="bx bxs-lock-alt"></i>
-                </div> 
-                <div class="remember-forgot">
-                    <label><input type="checkbox" class="check" style="accent-color: black; ">记住我</label>
-                    <a href="https://www.youtube.com/watch?v=cb1RPI59Kxs">忘记密码?</a>
-                </div>
-                <button type="submit" class="btn">登录</button>
-                <div class="register-link">
-                    <p>没有账户?<a href="https://www.youtube.com/watch?v=9Tr7eMqPv4M">注册</a></p>
-                </div>
-            </form>
+            <div class="form-box login"> 
+               <span class="icon-close">
+                    <p>×</p>
+               </span>
+                
+                <form action="">
+                    <h1>好难过</h1>
+                    <div class="input-box">
+                        <input type="text" placeholder="用户名" required>
+                        <i class="bx bxs-user"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="密码" required>
+                        <i class="bx bxs-lock-alt"></i>
+                    </div> 
+                    <div class="remember-forgot">
+                        <label><input type="checkbox" class="check" style="accent-color: black; ">记住我</label>
+                        <a href="https://www.youtube.com/watch?v=cb1RPI59Kxs">忘记密码?</a>
+                    </div>
+                    <button type="submit" class="btn">登录</button>
+                    <div class="register-link">
+                        <p>没有账户?<a href="#">注册</a></p>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="form-box register"> 
+               <span class="icon-close">
+                    <p>×</p>
+               </span>
+                
+                <form action="">
+                    <h1>Resgister</h1>
+                    <div class="input-box">
+                        <input type="text" placeholder="Username" required>
+                        <i class="bx bxs-user"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Email" required>
+                        <i class="bx bxs-user"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Password" required>
+                        <i class="bx bxs-lock-alt"></i>
+                    </div> 
+                    <div class="remember-forgot">
+                        <label><input type="checkbox" class="check" style="accent-color: black; ">I agree to the terms & conditions</label>
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+
         </div>
+
+        <script src="login.js"></script>
+        <script type="module" src="https://unpkg.com/ionicon@5.5.2/dist/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicon@5.5.2/dist/ionicons.esm.js"></script>
+
+        
     </body>
 
 </html>
